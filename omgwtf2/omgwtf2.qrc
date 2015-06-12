@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/" lang="QML">
+        <file>qml/Accessible.qml</file>
+        <file>qml/Color_blind.qml</file>
+        <file>qml/Corporate.qml</file>
+        <file>qml/main.qml</file>
+        <file>js/logic.js</file>
+        <file>qml/components/Button.qml</file>
+        <file>qml/components/EasyText.qml</file>
+        <file>qml/components/TerminalText.qml</file>
+        <file>qml/fonts/Gross Regular.ttf</file>
+        <file>qml/fonts/tcsystem.ttf</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+Instructions
+Requires Qt 4.7.4 or later
+Tested only on x86_64 linux, should work on all other platforms (including Windows, Mac, iOS, Android and Blackberry) via Qt Creator SDK
+
+Qt4
+-run qmake && make
+-run ./omgqml
+Alternatively, for you "eye-dee-ee" people open the .pro file in Qt Creator (make sure not to get a Qt 5 one, since Qt 4 is getting pretty old now...) and click the button that looks like a green triangle on its side.
+
+Three UIs are available via the buttons on the initial screen.
+
+Usage: Run, select your UI, and type an answer to the question in the prompt provided.
+Most of the usage instructions are left as comments in the code. For further details consult the manual when it's out, but I'm relying on someone else to write it.
+
+OMGWTF submission Q&A
+
+Short Description
+Since I do everything in QML, here is a QML solution. Note that this is a classic example of choosing the wrong language purely out of favoritism, especially for an enterprise IT task and especially when Qt's Widgets (in the same toolkit no less!) provide a much better corporate desktop UI.
+
+Randomness Approach
+Since everyone knows humans are much more random than computers (which can only do "pseudo"random), the human input is used as the randomness generator. Depending on what they input, they'll recieve a yes or a no with roughly 50% probability (because vowels are pretty popular these days).
+
+UI Approach
+So the average office worker can run it, it has been given a cross-platform GUI front-end. To make middle aged executives feel more comfortable, it has been given the look of a late eighties terminal (which I have never seen before, so I guessed). Additional UIs have been added to meet accessibility and color-blind needs, presumably mandated by government regulations.
+
+Security Approach
+Input indicative of an attempt to breach security leads to immediate app termination before they can get anything else out of it. Results are not stored between sessions, as a security feature! By compiling the interpreted script files into the binary, they will become impossible for attackers to tamper with.

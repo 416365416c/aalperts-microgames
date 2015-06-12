@@ -1,0 +1,3 @@
+Corporate {
+    color: "red"
+}
